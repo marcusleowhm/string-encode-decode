@@ -13,7 +13,7 @@ public class Application {
 
         String encodedText = service.encode("HELLO WORLD");
         System.out.printf("Offset character: %s\n", encodedText.charAt(0));
-        System.out.printf("Encoded text: %s\n\n", encodedText);
+        System.out.printf("Encoded text: %s\n", encodedText);
 
         String decodedString = service.decode(encodedText);
         System.out.printf("Decoded text: %s\n", decodedString);
